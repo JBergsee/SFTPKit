@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "80E06FC7-5890-461C-A5DF-4EDD60ED216D",
+      "name" : "Test Scheme Action",
+      "options" : {
+        "environmentVariableEntries" : [
+
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "HOST",
+        "value" : "$(HOST)"
+      }
+    ]
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "SFTPKitTests",
+        "name" : "SFTPKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
